@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ok1y2/asxyDzAaBQ5jsWsLYnzx8GLl28CUtEJvQwYPdAlO9HBFKrJYXM+U8M2EyL8NEU4HgMVJ2x1XIrDEnzmw==",
+  "success": true,
+  "projectFilePath": "D:\\webAvance\\myDAO-dotnet\\dao\\dao.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thony\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\thony\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\thony\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

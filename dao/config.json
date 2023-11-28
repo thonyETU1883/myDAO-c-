@@ -1,0 +1,7 @@
+{
+    "server" : "localhost",
+    "databaseName" : "dao",
+    "port" : "5432",
+    "username" : "postgres",
+    "password" : "0000"
+}
