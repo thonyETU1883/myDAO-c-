@@ -1,9 +1,12 @@
+namespace dao.Models;
+using Npgsql; 
+
 public class Database{
-    String server;
-    String database;
-    String port;
-    String username;
-    String password;
+    String? server;
+    String? database;
+    String? port;
+    String? username;
+    String? password;
 
 
     public Database(){}
@@ -15,23 +18,23 @@ public class Database{
         this.password=password;
     }
 
-    public String getserver(){
+    public String? getserver(){
         return this.server;
     }
 
-    public String getdatabase(){
+    public String? getdatabase(){
         return this.database;
     }
 
-    public String getport(){
+    public String? getport(){
         return this.port;
     }
 
-    public String getusername(){
+    public String? getusername(){
         return this.username;
     }
 
-    public String getpassword(){
+    public String? getpassword(){
         return this.password;
     }
 

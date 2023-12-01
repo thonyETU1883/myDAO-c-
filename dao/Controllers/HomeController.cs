@@ -15,8 +15,14 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        Connection connection = new Connection(); 
-        Database database = connection.getinformationdatabase("D:\\webAvance\\myDAO-dotnet\\dao\\config.json");
+        Personnel personnel = new Personnel();
+        List<object[]> a = personnel.getannotationcolumn();
+        foreach(object[] b in a){
+            foreach (object attribut in b)
+            {
+                Console.WriteLine($" - Attribut : {attribut.GetType().Name}");
+            }
+        }
         return View();
     }
 

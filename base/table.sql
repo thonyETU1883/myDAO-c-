@@ -6,3 +6,6 @@ CREATE TABLE personnel(
     nompersonnel VARCHAR(50),
     poste VARCHAR(50)
 );
+
+
+--------------------
